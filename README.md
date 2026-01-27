@@ -3,10 +3,10 @@ Modify Fire Emblem 9 &amp; 10 assets to transfer unit models and animations betw
 
 ### Install / Build:
 - Released version for Windows 11 should require no dependencies. Download and run.
-- For other OS, the python script, requirements, and necessary files have been provided.
+- For other OS: the python script, requirements, and necessary files have been provided.
 	- Written in Python 3.13. May be compatible with versions 3.10+. 
 	- Download the 'fe10-to-fe9' folder.
- 	- Install the requrements listed in requirements.txt.
+ 	- Install the requirements listed in requirements.txt.
   	- Run the program from the python script or build an executable for your OS. 
 
 ### General Info:
