@@ -22,7 +22,7 @@ Modify Fire Emblem 9 &amp; 10 assets to transfer unit models and animations betw
 - [FE10AnimData Editor](https://docs.google.com/spreadsheets/d/1pxpptW_rRY9hspODIw7zljYLYZYSH3R9QRNiI0DVHFA/edit?usp=sharing) (data provided by LordMewtwo73)
 
 ### Directions:
-#### Prepare files
+#### Initial preparation
 1. Extract disc files from FE10.
 2. Locate 'pack.cmp' in the ymu subfolder holding the files you want to transfer. Process 'pack.cmp' using Lumina to generate a folder named 'pack'.
 
@@ -31,12 +31,17 @@ Modify Fire Emblem 9 &amp; 10 assets to transfer unit models and animations betw
 2. On the Start Page, choose the input path. It should be the ymu subfolder holding the files you want to transfer.
 3. Set the output path to your desired location.
 4. Press Next to confirm your selections. A warning message will appear if either path is considered invalid.
-5. If your input path is a vanilla folder name, the associated FE10AnimData should load automatically. Use the dropdown menu to select other vanilla options. Otherwise, select the option to manually type in the AnimData (found in FE10Anim.cms, Paragon Animations, or FE10AnimData Editor)
+5. If your input path is a vanilla folder name, the associated FE10AnimData should load automatically. Use the dropdown menu to select other vanilla options. Otherwise, select the option to manually type in the AnimData (found in FE10Anim.cms, Paragon - Animations, or FE10AnimData Editor)
 6. Click 'Load / Refresh Table' above the table to view what the source and destination files will be named. This step can be safely skipped.
 7. Click 'Port Files' below the table to generate the modified files. File changes include changing the overall format to match the destination game, making unused weapons invisible, and updating pointers.
 	- Not included: updating damage timing on brave attacks (atk2_*.ga) and ensuring projectile weapons are visible only when in the unit's hand.
 	- The involved animations will still be functional. If desired, these can be fixed with manual hex editing.
 8. Click 'Return to Start' to port another model or close the application.
-9. Use preferred method to add the new ymu folder(s) to FE9. If needed, update FE8Anim.bin.
+
+#### File organization
+1. Process the output 'pack' folder using Lumina to generate a file named 'pack.cmp'.
+2. Rename texture files to the format 'tex_#.tpl'. Texture files can stay in the 'ymu/model*/' folder.
+3. If needed, update 'FE8Anim.bin'.
+4. Use preferred method to add the new ymu folder(s) to FE9.
 
 
