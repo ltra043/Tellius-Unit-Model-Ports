@@ -10,24 +10,23 @@ Modify Fire Emblem 9 &amp; 10 assets to transfer unit models and animations betw
   	- Run the program from the python script or build an executable for your OS. 
 
 ### General Info:
-
 - Released version for use in Windows 11
-- Use this app to transfer ymu assets from FE10 to FE9
+- Use to transfer ymu assets from FE10 to FE9
 - The files '10_to_9_ymu.exe', '10_to_9_ymu.ui', and 'FE10_Anim_Data.txt' must be kept together in a single directory.
 - Do not rename '10_to_9_ymu.ui' or 'FE10_Anim_Data.txt'
 
 ### Other Resources:
-
-- Lumina by thane98
-- Paragon by thane98
 - Dolphin Emulator
+- [Paragon](https://github.com/thane98/paragon) by thane98
+- [Lumina](https://github.com/thane98/lumina) by thane98
 - [FE10AnimData Editor](https://docs.google.com/spreadsheets/d/1pxpptW_rRY9hspODIw7zljYLYZYSH3R9QRNiI0DVHFA/edit?usp=sharing) (data provided by LordMewtwo73)
 
-### Before Using:
-- Extract disc files from FE10.
-- Locate 'pack.cmp' in the ymu subfolder holding the files you want to transfer. Process 'pack.cmp' using Lumina to generate a folder named 'pack'. 
-
 ### Directions:
+#### Prepare files
+1. Extract disc files from FE10.
+2. Locate 'pack.cmp' in the ymu subfolder holding the files you want to transfer. Process 'pack.cmp' using Lumina to generate a folder named 'pack'.
+
+#### Process files in the app
 1. Run '10_to_9_ymu.exe'
 2. On the Start Page, choose the input path. It should be the ymu subfolder holding the files you want to transfer.
 3. Set the output path to your desired location.
