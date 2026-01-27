@@ -1,9 +1,17 @@
 # Tellius-Unit-Model-Ports
 Modify Fire Emblem 9 &amp; 10 assets to transfer unit models and animations between the games. 
 
+### Install / Build:
+- Released version for Windows 11 should require no dependencies. Download and run.
+- For other OS, the python script, requirements, and necessary files have been provided.
+	- Written in Python 3.13. May be compatible with versions 3.10+. 
+	- Download the 'fe10 to fe9' folder.
+ 	- Install the requrements listed in requirements.txt.
+  	- Run the program from the python script or build an executable for your OS. 
+
 ### General Info:
 
-- For use in Windows 11
+- Released version for use in Windows 11
 - Use this app to transfer ymu assets from FE10 to FE9
 - The files '10_to_9_ymu.exe', '10_to_9_ymu.ui', and 'FE10_Anim_Data.txt' must be kept together in a single directory.
 - Do not rename '10_to_9_ymu.ui' or 'FE10_Anim_Data.txt'
