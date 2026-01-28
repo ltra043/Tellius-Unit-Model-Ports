@@ -7,7 +7,7 @@ Modify Fire Emblem 9 &amp; 10 assets to transfer unit models and animations betw
  	- Download the zip folder from the [Releases](https://github.com/ltra043/Tellius-Unit-Model-Ports/releases).
   	- Unzip the folder and run the exe file.
 - For other OS: the python script, requirements, and necessary files have been provided.
-	- Written in Python 3.13. May be compatible with versions 3.10+. 
+	- Written in Python 3.13. Untested with older versions; may be compatible with versions 3.10+. 
 	- Download the 'fe10-to-fe9' folder.
  	- Install the requirements listed in requirements.txt.
   		- Open your terminal. Change your directory to the 'fe10-to-fe9' folder.
